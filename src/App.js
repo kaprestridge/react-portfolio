@@ -3,6 +3,7 @@ import './App.css';
 const App = () => {
   return(
     <>
+    <h1> Welcome to my app</h1>
     </>
   )
 }
