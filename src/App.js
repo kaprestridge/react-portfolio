@@ -1,11 +1,21 @@
 import './App.css';
-
+//components
+import About from './components/About'
+import Nav from './components/Nav'
+//img
+// import background from './img/print-bg.png'
 const App = () => {
   return(
     <>
-    <h1> Welcome to my app</h1>
+    <body class="font-mono bg-hero-pattern" >
+    <Nav />
+    <About />
+    </body>
     </>
   )
 }
 
 export default App;
+
+
+// style={{ backgroundImage: `url(${background})`, resizeMode: 'repeat' }}
