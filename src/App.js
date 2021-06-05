@@ -7,10 +7,10 @@ import Nav from './components/Nav'
 const App = () => {
   return(
     <>
-    <body class="font-mono bg-hero-pattern" >
+    <div id="background "className="font-mono bg-hero-pattern" >
     <Nav />
     <About />
-    </body>
+    </div>
     </>
   )
 }
