@@ -5,7 +5,7 @@ import headshot from '../img/photo_of_kat.jpeg'
 const About = () => {
     return(
         <>
-        {/* <div className="h-20 w-screen "></div> //This is for the navbar spacing when it is aligned to screen */}
+        <div className="h-20 w-screen "></div>
 
         <div className="flex flex-col items-center lg:flex-row lg:items-stretch">
         <div className="w-3/4 lg:w-2/4 m-10 bg-red-50 bg-opacity-75 shadow-md rounded-md flex flex-col items-center">
@@ -18,7 +18,7 @@ const About = () => {
             <p className="m-6 text-xl">
                 I solve problems through building beautiful websites that don't compromise on functionality or accessability.
             </p>
-            <div className="bg-olive bg-opacity-75 shadow-md m-8">
+            <div className="bg-olive bg-opacity-75 shadow-lg m-8">
                 <p>This is where the svgs will go! Nice.</p>
             </div>
             <p className="m-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non assumenda obcaecati sit vel quia, nulla laborum, a, saepe ipsum enim earum vero dolor quisquam dolores numquam provident excepturi et nesciunt.</p>
