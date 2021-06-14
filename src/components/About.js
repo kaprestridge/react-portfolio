@@ -1,6 +1,9 @@
 import React from 'react'
 //img
 import headshot from '../img/photo_of_kat.jpeg'
+//icons
+import { DiReact, DiRuby, DiRor, DiSass, DiVisualstudio, DiJsBadge, DiGithubBadge  } from "react-icons/di";
+import { SiTailwindcss, SiCss3, SiHtml5, SiHeroku } from "react-icons/si";
 
 const About = () => {
     return(
@@ -18,8 +21,8 @@ const About = () => {
             <p className="m-6 text-xl">
                 I solve problems through building beautiful websites that don't compromise on functionality or accessability.
             </p>
-            <div className="bg-olive bg-opacity-75 shadow-lg m-8">
-                <p>This is where the svgs will go! Nice.</p>
+            <div className="bg-olive bg-opacity-75 shadow-lg m-8 text-5xl flex flex-row">
+                <div className="flex flex-row m-5 flex-wrap"> <SiHtml5 />  <SiCss3 /> <DiSass /> <DiRuby /> <DiRor /> <DiJsBadge /> <DiReact /> <DiVisualstudio /> <DiGithubBadge /> <SiTailwindcss /> <SiHeroku /></div>
             </div>
             <p className="m-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non assumenda obcaecati sit vel quia, nulla laborum, a, saepe ipsum enim earum vero dolor quisquam dolores numquam provident excepturi et nesciunt.</p>
             
