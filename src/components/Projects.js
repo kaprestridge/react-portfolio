@@ -12,7 +12,7 @@ const Projects = () => {
                 {projects.map((project, index) => (
                         <div key={index} className="bg-olive bg-opacity-75 shadow-lg m-8 w-3/4 lg:w-1/4 flex flex-col items-center">
                             <h3 className="text-xl m-4">{project.name}</h3>
-                            <a href={project.url} target="_blank">
+                            <a href={project.url} target="_blank" rel="noreferrer">
                                 <div className="m-8 w-3/4 items-center flex flex-col"><img src={project.image} alt={project.title}></img></div>
                             </a>
                             <p className="m-4">{project.description}</p>
