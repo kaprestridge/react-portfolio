@@ -4,6 +4,7 @@ import headshot from '../img/photo_of_kat.jpeg'
 //icons
 import { DiReact, DiRuby, DiRor, DiSass, DiVisualstudio, DiJsBadge, DiGithubBadge  } from "react-icons/di";
 import { SiTailwindcss, SiCss3, SiHtml5, SiHeroku } from "react-icons/si";
+import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
 const About = () => {
 
@@ -16,7 +17,11 @@ const About = () => {
         <div className="w-3/4 lg:w-2/4 m-10 bg-red-50 bg-opacity-75 shadow-md rounded-md flex flex-col items-center">
             <h1 className="text-5xl  m-8">Hi, I'm Kathryn</h1>
             <img src={headshot} alt="A head-shot of Kathryn looking towards the camera and smiling"class="rounded-full m-8 h-64" />
-            <p className="m-6">I am an animal lover, board game enthusiast, book worm and problem solver. I am enthusiastic about technology and how we can use it to make the world a better place. I am also passionate about creating spaces for women and minorities in STEM and prioritise surrounding myself with wonderful people.</p>
+            <p className="m-6 text-6xl flex space-x-2">
+                <a target="_blank" href={"https://www.linkedin.com/in/kaprestridge/"} rel="noopener noreferrer"><AiFillLinkedin /></a>
+                <a target="_blank" href={"https://twitter.com/katprestridge"} rel="noopener noreferrer"><AiFillTwitterCircle /> </a>
+                <a target="_blank" href={"https://github.com/kaprestridge"} rel="noopener noreferrer"><AiFillGithub /> </a>
+            </p>
         </div>
         <div className="w-3/4 lg:w-2/4 m-10 bg-red-50 bg-opacity-75 shadow-md">
             <h1 className="text-5xl m-8">What I do...</h1>
@@ -26,7 +31,7 @@ const About = () => {
             <div className="bg-olive bg-opacity-75 shadow-lg m-8 text-5xl flex flex-row">
                 <div className="flex flex-row m-4 flex-wrap"> <SiHtml5 />  <SiCss3 /> <DiSass /> <DiRuby /> <DiRor /> <DiJsBadge /> <DiReact /> <DiVisualstudio /> <DiGithubBadge /> <SiTailwindcss /> <SiHeroku /></div>
             </div>
-            <p className="m-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non assumenda obcaecati sit vel quia, nulla laborum, a, saepe ipsum enim earum vero dolor quisquam dolores numquam provident excepturi et nesciunt.</p>
+            <p className="m-6">I am an animal lover, board game enthusiast, book worm and problem solver. I am enthusiastic about technology and how we can use it to make the world a better place. I am also passionate about creating spaces for women and minorities in STEM and prioritise building strong and supportive communities. I am currently looking for my next full-time role.</p>
             
         </div>
 </div>
