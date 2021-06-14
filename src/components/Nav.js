@@ -1,13 +1,16 @@
 import React from 'react'
 import logo from '../img/kp-logo.png'
+import {Link} from 'react-scroll'
 
 const Nav = () => {
     return(
         <>
         <nav className="h-20 bg-olive text-red-50 flex flex-row flex-wrap items-center fixed w-screen">
-            <img src={logo} alt="Kathryn's logo" class="h-20"></img>
-            <p className="m-2">Projects</p><a href="#Projects"> Back to the top </a>
-            <p className="m-2">Contact</p>
+            <Link to="about" spy={true} smooth={true}>
+                <img src={logo} alt="Kathryn's logo" className="h-20 cursor-pointer"></img>
+            </Link>
+            <Link  to="projects" spy={true} smooth={true} className="cursor-pointer">Projects</Link>
+            <p className="m-2 cursor-pointer">Contact</p>
         </nav>
     </>
     )

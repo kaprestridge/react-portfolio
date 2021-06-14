@@ -8,7 +8,7 @@ import Projects from './components/Projects'
 const App = () => {
   return(
     <>
-    <div id="background "className="font-mono bg-hero-pattern" >
+    <div id="background "className="font-mono bg-hero-pattern cursor-default" >
     <Nav />
     <About />
     <Projects />
