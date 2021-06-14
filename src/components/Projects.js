@@ -1,9 +1,10 @@
 import React from 'react'
 import projects from '../data/projects-data'
 
+
 const Projects = () => {
     return(
-        <div className="flex flex-col items-center lg:items-stretch">
+        <div id="Projects" className="flex flex-col items-center lg:items-stretch">
             <div id= "projects-card" className="m-10 w-3/4 lg:w-auto bg-red-50 bg-opacity-75 shadow-md rounded-md flex flex-col items-center">
                 <h1 className="text-5xl  m-10">Here are some recent projects I have worked on...</h1>
                 <div className="flex flex-row flex-wrap items-center lg:items-stretch">
