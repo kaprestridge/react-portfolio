@@ -3,7 +3,7 @@ import './App.css';
 import About from './components/About'
 import Nav from './components/Nav'
 import Projects from './components/Projects'
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
 //img
 // import background from './img/print-bg.png'
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
     <Nav />
     <About />
     <Projects />
-    {/* <Contact /> */}
+    <Contact />
     </div>
     </>
   )
