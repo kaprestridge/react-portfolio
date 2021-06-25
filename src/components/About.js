@@ -31,7 +31,14 @@ const About = () => {
             <div className="bg-olive bg-opacity-75 shadow-lg m-8 text-5xl flex flex-row">
                 <div className="flex flex-row m-4 flex-wrap"> <SiHtml5 />  <SiCss3 /> <DiSass /> <DiRuby /> <DiRor /> <DiJsBadge /> <DiReact /> <DiVisualstudio /> <DiGithubBadge /> <SiTailwindcss /> <SiHeroku /></div>
             </div>
-            <p className="m-6">I am an animal lover, board game enthusiast, book worm and problem solver. I am enthusiastic about technology and how we can use it to make the world a better place. I am also passionate about creating spaces for women and minorities in STEM and prioritise building strong and supportive communities. I am currently looking for my next full-time role.</p>
+            <p className="m-6">I am an animal lover, board game enthusiast, book worm and problem solver. 
+            I am enthusiastic about technology and how we can use it to make the world a better place,
+            with some fun along the way. 
+            I am also passionate about creating spaces for women and minorities in STEM and prioritise 
+            building strong and supportive communities wherever I am.</p>
+            <p className="m-6"> I am currently looking for my next full-time role as
+            a developer where I will have opportunities to grow and learn.  </p>
+            <div className="h-10"></div>
             
         </div>
 </div>
