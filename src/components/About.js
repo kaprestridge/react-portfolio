@@ -16,7 +16,7 @@ const About = () => {
         <div className="flex flex-col items-center lg:flex-row lg:items-stretch">
         <div className="w-3/4 lg:w-2/4 m-10 bg-red-50 bg-opacity-75 shadow-md rounded-md flex flex-col items-center">
             <h1 className="text-5xl  m-8">Hi, I'm Kathryn</h1>
-            <img src={headshot} alt="A head-shot of Kathryn looking towards the camera and smiling"class="rounded-full m-8 h-64" />
+            <img src={headshot} alt="A head-shot of Kathryn looking towards the camera and smiling"className="rounded-full m-8 h-64" />
             <p className="m-6 text-6xl flex space-x-2">
                 <a target="_blank" href={"https://www.linkedin.com/in/kaprestridge/"} rel="noopener noreferrer"><AiFillLinkedin /></a>
                 <a target="_blank" href={"https://twitter.com/katprestridge"} rel="noopener noreferrer"><AiFillTwitterCircle /> </a>
