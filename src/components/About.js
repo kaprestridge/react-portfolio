@@ -26,7 +26,7 @@ const About = () => {
         <div className="w-3/4 lg:w-2/4 m-10 bg-red-50 bg-opacity-75 shadow-md">
             <h1 className="text-5xl m-8">What I do...</h1>
             <p className="m-6 text-xl">
-                I solve problems through building beautiful websites that don't compromise on functionality or accessability.
+                I solve problems through building beautiful websites and applications that don't compromise on functionality or accessibility.
             </p>
             <div className="bg-olive bg-opacity-75 shadow-lg m-8 text-5xl flex flex-row">
                 <div className="flex flex-row m-4 flex-wrap"> <SiHtml5 />  <SiCss3 /> <DiSass /> <DiRuby /> <DiRor /> <DiJsBadge /> <DiReact /> <DiVisualstudio /> <DiGithubBadge /> <SiTailwindcss /> <SiHeroku /></div>
